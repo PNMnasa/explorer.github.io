@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tải Ứng Dụng</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4c6ef5, #15aabf);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 40px 30px;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+        }
+
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            background: #ffffff55;
+            border-radius: 25%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+
+        p {
+            margin: 10px 0 25px;
+            font-size: 16px;
+        }
+
+        .download-btn {
+            background: #fff;
+            color: #0b7285;
+            font-weight: bold;
+            padding: 15px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.25s;
+            display: inline-block;
+        }
+
+        .download-btn:hover {
+            background: #e3fafc;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="app-icon">
+            📱
+        </div>
+
+        <h1>Tải Ứng Dụng Của Bạn</h1>
+        <p>Nhấn nút bên dưới để tải file APK và cài đặt ứng dụng.</p>
+
+        <a 
+            class="download-btn" 
+            href="https://your-download-link.com/app.apk"
+            download
+        >
+            Tải APK
+        </a>
+    </div>
+</body>
+</html>
